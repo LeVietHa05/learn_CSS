@@ -1,0 +1,107 @@
+:root {
+    --text-color: red;
+}
+
+/* body {
+    background-image: url(https://genk.mediacdn.vn/thumb_w/690/2019/7/8/1-15625474669018688730.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 20px dashed #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    background-origin: border-box;
+    background-position: center 10px;
+} */
+
+h1 {
+    color: var(--text-color);
+}
+h1::first-letter {
+    color: blueviolet
+}
+h1::first-line {
+    color: darkgoldenrod;
+}
+#second_heading {
+    color: aqua
+}
+li {
+    color: blue;
+}
+li:hover {
+    background-color: rgba(0, 255, 255,0.5);
+}
+/* thuo tinh trong selector duoc noi boi nhieu class
+se duoc uu tien hon */
+.list_item.h2 {
+    color: rgb(182, 182, 80);
+}
+/* selector element la con 1 element khác */
+ul .list_item {
+    color: cyan;
+}
+.box::before {
+    content: "xin chao";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(201, 190, 34);
+} 
+.box::after {
+    content: "xin chao";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(35, 143, 49);
+}
+
+::selection {
+    background-color: wheat;
+    color: black
+}
+.boxx {
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.box1 {
+    padding: 10px 12px 8px;
+    background-color:rgb(201, 190, 34);
+    border: 2px solid sandybrown;
+}
+.box2 {
+    padding: 10px 12px;
+    background-color: yellow;
+    margin: 10px 5px;
+}
+.box3 { 
+    padding: 10px;
+    background-color: violet;
+}
+
+div.image{
+    width: 100%;
+    height: 30vh;
+    background-image:linear-gradient(0, rgba(197, 8, 8, 0.3), rgba(138, 138, 34, 0.1)),url(https://1.bp.blogspot.com/-DzIe8rgvR-c/X0Yp86nnrTI/AAAAAAAAFzk/KMbcRUR2d2oBooz_ueJJK5b8e2Q_wTTogCLcBGAsYHQ/w1200-h630-p-k-no-nu/anh-gai-xinh-facebook%2B%25281%2529.jpg);
+    background-size: 70vw auto;
+    background-repeat:repeat-y;
+    background-position: center;
+}
+
+#relative_position {
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+#Absolute_position {
+    /* display: block; */
+    position: absolute;
+
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
