@@ -77,3 +77,10 @@
 2. Absolute: lay the parent co att pos de lam doc toa do. dung khi can di chuyen mot the con theo vi tri cua the cha 
 3. Fixed: dung khi muon cac the dinh lay cac canh cua trinh duyet
 4. Sticky: it trinh duyet ho tro. han che su dung. Dung khi muon the dinh lay trinh duyet khi di toi no
+# Căn giữa trong CSS
+1. sử dụng "*text-align: center*" + "*line-height: heignt của element cha*" : dùng tốt khi chỉ có 1 thẻ con  
+2. khi có nhiều thẻ con thì nên sử dụng "*display: flex*" ở thẻ cha và "*margin: auto*" ở thẻ con
+3. cách tương tự như cách 2 thì có thể dùng : "*display: flex*" + "*align-items: center*" + "*justify-content: space-...*" ở thẻ cha
+4. một cách toán học hơn: "*position: relative*" ở thẻ cha và "*position: absolute*" + "*top: 50% left: 50% + transform: translate(-50%, -50%)*" ở thẻ con
+5. có thể dùng biến ở thẻ cha: "*--height*" và dùng "*line-height*" ở thẻ con
+6. 
