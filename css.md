@@ -75,5 +75,5 @@
 # CSS Position
 1. Relative: lay goc toa do la chinh no. cac att top, left se khong hoat dong neu khong co pos relative
 2. Absolute: lay the parent co att pos de lam doc toa do. dung khi can di chuyen mot the con theo vi tri cua the cha 
-3. Fixed
-4. Sticky
+3. Fixed: dung khi muon cac the dinh lay cac canh cua trinh duyet
+4. Sticky: it trinh duyet ho tro. han che su dung. Dung khi muon the dinh lay trinh duyet khi di toi no

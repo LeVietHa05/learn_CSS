@@ -85,7 +85,7 @@ ul .list_item {
 
 div.image{
     width: 100%;
-    height: 30vh;
+    height: 100vh;
     background-image:linear-gradient(0, rgba(197, 8, 8, 0.3), rgba(138, 138, 34, 0.1)),url(https://1.bp.blogspot.com/-DzIe8rgvR-c/X0Yp86nnrTI/AAAAAAAAFzk/KMbcRUR2d2oBooz_ueJJK5b8e2Q_wTTogCLcBGAsYHQ/w1200-h630-p-k-no-nu/anh-gai-xinh-facebook%2B%25281%2529.jpg);
     background-size: 70vw auto;
     background-repeat:repeat-y;
@@ -103,5 +103,21 @@ div.image{
     position: absolute;
 
     top: 0; left: 0; bottom: 0; right: 0;
+}
+#Fixed_position {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    z-index: 1;
+}
+#Sticky_position {
+    color:rgb(201, 190, 34);
+    background-color: skyblue;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
 }
 
